@@ -1,0 +1,25 @@
+.weather-widget {
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temperature h3 {
+  font-size: 30px;
+  color: #333;
+}
+
+.condition h3 {
+  font-size: 25px;
+  color: #555;
+}
